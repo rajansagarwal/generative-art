@@ -3,7 +3,7 @@ class Particle {
     this.pos = createVector(random(width), random(height));
     this.vel = createVector(0, 0);
     this.acc = createVector(0, 0);
-    this.maxspeed = 150;
+    this.maxspeed = 5;
     this.prevPos = this.pos.copy();
   }
 

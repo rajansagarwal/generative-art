@@ -30,7 +30,7 @@ function setup() {
   for (var i = 0; i < numbPart; i++) {
     particles[i] = new Particle();
   }
-  background(180);
+  background(51);
 }
 
 function draw() {
