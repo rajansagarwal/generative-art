@@ -18,7 +18,7 @@ var hu = 0;
 var p = 1;
 
 function setup() {
-  createCanvas(displayWidth,displayHeight);
+  createCanvas(windowWidth,windowHeight);
   colorMode(HSB,400, 100, 0, 0);
 
   cols = floor(width / scl);
